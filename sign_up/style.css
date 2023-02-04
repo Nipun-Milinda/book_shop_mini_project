@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+.input_sign_in{
+    display: flex;
+    flex-direction: column;
+}
+
+.switch_to_sign_up{
+    display: flex;
+    padding-top: 5em;
+    justify-content: center;
+    
+}
+
+.main{
+    max-width: 1100px;
+    width: 75%;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo , .sign_in_title , .sign_in_form, .sign_in_button, .social_media_sign_in{
+    padding-bottom: 2em;
+}
+
+.social_media_sign_in{
+    display: flex;
+    justify-content: center;
+}
+
+.social_media_sign_in i, .switch_to_sign_up h4, .switch_to_sign_up a{
+    margin: 0 0.3em;
+}
+
+.switch_to_sign_up a{
+    text-decoration: none;
+}
+
+.switch_to_sign_up a{
+    color: #2EA0B9;
+}
+
+h4{
+    color: #BAB3B3;
+}
+
+.sign_in_title{
+    display: flex;
+    justify-content: center;
+    color: #788484;
+    font-weight: 400;
+}
+
+.sign_in_button{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    height: 4em;
+    width: 25em;
+    border-radius: 30px;
+    background-color: #2EA0B9;
+    color: white;
+    border: 1px none #2EA0B9;
+    cursor: pointer;
+}
+
+.input_sign_in input{
+    height: 4em;
+    margin: 1em 0;
+    width: 25em;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px none #2EA0B9;
+}
+
+.item_input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4em;
+    margin: 1em 0;
+    width: 25em;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid #2EA0B9;
+}
+
+.item_input i{
+    margin-left: 1.4em;
+}
+
+h3{
+    font-size: 2em;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.social_media_sign_in a{
+    color: black;
+}
+
+
