@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.input_sign_in{
+    display: flex;
+    flex-direction: column;
+}
+
+.switch_to_sign_up{
+    display: flex;
+    padding-top: 9em;
+    justify-content: center;
+    
+}
+
+.main{
+    width: 75%;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo , .sign_in_title , .sign_in_form, .sign_in_button, .fogot_pass, .social_media_sign_in{
+    padding-bottom: 3em;
+}
+
+.social_media_sign_in{
+    display: flex;
+    justify-content: center;
+}
+
+.social_media_sign_in i, .switch_to_sign_up h4, .switch_to_sign_up a{
+    margin: 0 0.6em;
+}
+
+.fogot_pass{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
