@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.hero_image{
+    background-color: #80D0E1;
+    height: 100vh;
+    width: 100vw;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;
+    position: fixed;
+    height: 100px;
+    width: 100vw ;
+}
+
+.nav_buttons{
+    display: flex;
+}
+
+.header_icons{
+    display: flex;
+}
+
+.he_icn{
+    display: flex;
+}
